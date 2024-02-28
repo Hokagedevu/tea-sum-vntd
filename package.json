@@ -1,7 +1,11 @@
 {
   "name": "tea-sum-vntd",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hokagedevu/tea-sum-vntd"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -11,10 +15,15 @@
     "@types/react": "^18.2.60",
     "@types/react-dom": "^18.2.19",
     "react": "^18.2.0",
+    "@craco/craco": "^5.7.0",
+    "react-router-dom": "^6.22.1",
+    "antd": "^5.14.1",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "inti25-web-tools": "1.0.0",
+    "near-tic-tac-toe":"1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
